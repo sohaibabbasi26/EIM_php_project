@@ -1,0 +1,16 @@
+{
+    "name": "user/eim_test",
+    "autoload": {
+        "psr-4": {
+            "User\\EimTest\\": "src/",
+            "App\\" : "app/",
+            "Src\\" : "src/"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "slim/slim": "4.*",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1"
+    }
+}
